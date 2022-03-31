@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="AttributeGrp" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1280,11242" sap2010:WorkflowViewState.IdRef="AttributeGrp_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="AttributeGrp" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="812,11342" sap2010:WorkflowViewState.IdRef="AttributeGrp_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="41">
       <x:String>System.Activities</x:String>
@@ -45,7 +45,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="32">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="31">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -79,19 +79,19 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="822,11177" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence sap:VirtualizedContainerService.HintSize="822,11277" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Welcome" sap:VirtualizedContainerService.HintSize="780,11085" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7d697b65-fd74-4eef-b9c2-bd067a2510d4" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Welcome" sap:VirtualizedContainerService.HintSize="780,11185" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7d697b65-fd74-4eef-b9c2-bd067a2510d4" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="746,10869" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="746,10969" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -219,19 +219,30 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="704,9056" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+            <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="704,9156" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
               <ueab:ExcelProcessScopeX.Body>
                 <ActivityAction x:TypeArguments="ui:IExcelProcess">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="670,8970" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="670,9070" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="FolderPath" />
+                    </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="628,8878" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="C:\Users\GoSaas Labs\Downloads\AttributeGroupsTask.xlsx">
+                    <Assign sap:VirtualizedContainerService.HintSize="628,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[FolderPath]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[Environment.CurrentDirectory]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="628,8878" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="[FolderPath+&quot;AttributeGroupsTask.xlsx&quot;]">
                       <ueab:ExcelApplicationCard.Body>
                         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                           <ActivityAction.Argument>
@@ -247,12 +258,12 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[DataTablee]" DelayAfter="2" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='table' idx='1' /&gt;&lt;webctrl tag='tbody' idx='1' /&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='table' idx='1' /&gt;&lt;webctrl tag='tbody' idx='1' /&gt;&lt;webctrl tag='tr' idx='1' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="552,156" sap2010:WorkflowViewState.IdRef="NExtractData_1" MaximumResults="0" ScopeIdentifier="7d697b65-fd74-4eef-b9c2-bd067a2510d4" Version="V1">
+                            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[DataTablee]" DelayAfter="2" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Attribute Groups'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='table' idx='1' /&gt;&lt;webctrl tag='tbody' idx='1' /&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='table' idx='1' /&gt;&lt;webctrl tag='tbody' idx='1' /&gt;&lt;webctrl tag='tr' idx='1' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="552,156" sap2010:WorkflowViewState.IdRef="NExtractData_1" MaximumResults="0" ScopeIdentifier="7d697b65-fd74-4eef-b9c2-bd067a2510d4" Version="V1">
                               <uix:NExtractData.NextLink>
-                                <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FuseTaskListManagerTop?_afrLoop=6550041328417840&amp;_adf.ctrl-state=4u8oys4ei_148" DesignTimeRectangle="332, 550, 86, 15" ElementType="Text" FriendlyName="'Internal Name'" FullSelectorArgument="&lt;webctrl aaname='Internal Name' parentid='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp:e*' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Internal Name' parentid='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp:e*' tag='SPAN' type='' check:text='Internal Name' /&gt;" Guid="691e5b7e-ebdb-44ab-b60c-94f4dcde92d2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFoAAAATCAYAAAAQ/xqmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVFhH7ZQ7ksIwDIZzupRwllQpc4L06ai5AGU6anoKeg5A7fVD8kMyjpPdeLIzLr4ZHJnf0hdD83x/RGV/quhCVNGFqKIL4UQ/LqJtGtH0M9t0RK697LU5i/HBa/fpLGt0lll06tnpIu7e3lL8SrQaqLvFa3uTJTqo/1PROMyxRftiDyraipzgud/kbXCDKPDlYAbgXgIOOYjupGpGkJU1eXn+i/52jiRbtMT0ERH9Nd/tHfU5hnaaxaj7NwSXLMjifS2KpmsMp+v49/FAaJw0YGSpAV7eGvZAHtboeTmi7SXRconoZD7tF9e0PoirygLJ4RxQA5ZvNIokYbTO9geDkCEBKotlKMitw1qWaLkXP7dSeqyHeD4R+X7BTY6vWS+Q6c/x56IZOm+DaOwH6vS8XNH+bdSQGx3Pp/3miOagK8V+Nzpgveil/HzRbq2BHtL5W0THe0E2i2Y/j+T3t4sO/nps3jrRTozrIZ2/TjR1E+ttu2ivOduQ/Tka2N4VogM5KqsfdHZqGISLlkD/XF4sf6VoPx8IzpY40ZVdqaILUUUXooouRBVdhI/4AQyCuRtvqHdCAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='24e867ert' title='Manage Item Attribute Groups and Attributes - Setup and Maintenance - Oracle Applications' /&gt;" SearchSteps="FuzzySelector, Image" />
+                                <uix:TargetAnchorable BrowserURL="https://fa-euid-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FuseTaskListManagerTop?_afrLoop=6812769011506477&amp;_adf.ctrl-state=34p42748a_148" DesignTimeRectangle="331, 350, 86, 15" ElementType="Text" FriendlyName="'Internal Name'" FullSelectorArgument="&lt;webctrl aaname='Internal Name' parentid='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp:e*' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Internal Name' parentid='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp:e*' tag='SPAN' type='' check:text='Internal Name' /&gt;" Guid="c5caf040-22fe-4d30-8c25-fbb472d2ee23" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFoAAAATCAYAAAAQ/xqmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGiSURBVFhH7ZRrjsMgDIQ5Y6ReKOIq5CjpQfqjx2AN2DxsSkh2i7ISI1kqjwzjL6TKTg3RBD1IE/QgTdCDlEC/jF2UsmrdceLe2lfIqhZrXjiR6b0tsMZ72a12cw9j3zgzUr8C7RrSTxwMVhfoYv2fgqZm7g06B3tT0BHkhvN5yKdOjbiil0MeWOklUJPa6odbC4AirC3zy1/0p3NA3aChQo4K6I/+aa/x54Ratt0anz9UcckKL5nrEDQfkzkf15+nAzE4CxBguQbwzuXw0I/W+Hk9oOMl8XAZ6KY/z0tjvq7hFwghl33gGur4RhNIZsbXxf6iEdYkisMSHk7s1tFaF2jYS78XgF7LUPdnIOGJcJPrY5EFPfM+/hy0KO93ATTlwXV+Xi/oBA2L3ei6P8/bA1oWsXL63o0udB70kX8/6DT2hRna/ldA17OQLoMWn0fz+eugi7+e6NduTmSPYFKGtv850JxNLdt10Fm4GCh+jqHE3hOgUzPotWrv3WqGJEGDML+EV/M/CdqJ/LGKs0EJ9NRXNUEP0gQ9SBP0IE3QQ2TtD92rN6S/PY62AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='132c66l18s' title='Manage Item Attribute Groups and Attributes - Setup and Maintenance - Oracle Applications' /&gt;" SearchSteps="FuzzySelector, Image" />
                               </uix:NExtractData.NextLink>
                               <uix:NExtractData.Target>
-                                <uix:TargetAnchorable DesignTimeRectangle="21, 325, 1323, 363" FriendlyName="'Display NameInternal'" FullSelectorArgument="&lt;webctrl id='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp:e*' parentid='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp::*' tag='DIV' /&gt;" Guid="f3ee0e94-02df-4c24-a3cc-8545421071c3" InformativeScreenshot="b2359f109fd0ce82e1177e21bce34439.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='24e867ert' title='Manage Item Attribute Groups and Attributes - Setup and Maintenance - Oracle Applications' /&gt;" SearchSteps="Selector" />
+                                <uix:TargetAnchorable DesignTimeRectangle="21, 342, 1323, 363" FriendlyName="'Display NameInternal'" FullSelectorArgument="&lt;webctrl id='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp:e*' parentid='pt1:r1:0:rt:1:r2:0:dynamicRegion1:0:r1:0:pt1:AP1:ectxSRAT:_ATp::*' tag='DIV' /&gt;" Guid="05930f11-c41a-48af-99fe-1a45257f4f95" InformativeScreenshot="1945a0cb931994da0eca429948d884e0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='132c66l18s' title='Manage Item Attribute Groups and Attributes - Setup and Maintenance - Oracle Applications' /&gt;" SearchSteps="Selector" />
                               </uix:NExtractData.Target>
                             </uix:NExtractData>
                             <ueab:WriteRangeX Destination="[Excel.Sheet(&quot;Attribute Groups List&quot;)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="552,157" sap2010:WorkflowViewState.IdRef="WriteRangeX_1" IgnoreEmptySource="False" Source="[DataTablee]">
